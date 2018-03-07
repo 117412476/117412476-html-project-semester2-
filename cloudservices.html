@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>The Cloud</title>
+        <link rel="stylesheet" href="cloud.css" type="text/css"/>
+         
+          
+          <!--Adding the javascript from bootstrap as instructed by jiss-->
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     
+        
+                    <!--Adding pagepiling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+	        $('#pagepiling').pagepiling();
+        });
+       </script>
+       </head>
+       
+       
+       
+  
+    <body>
+    <div id="pagepiling">
+	<div class="section" id="section1">
+	    <img src="data:image/png;base64,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">
+	    Cloud9 IDE is an online integrated development environment, 
+	published as open source from version 3.0. It supports hundreds of programming languages, including C, C++, PHP, Ruby, Perl, Python, JavaScript with Node.js, and Go. 
+	It enables developers to get started with coding immediately with pre-configured workspaces, collaborate with their peers with collaborative coding features,
+	and web development features like live preview and browser compatibility testing.
+A valid credit card is required for new user registration, and the service cannot be used without one.
+
+It is written almost entirely in JavaScript, and uses Node.js on the back-end. The editor component uses Ace. As of July 2014, it uses Docker containers for its workspaces,[5] and is hosted on Google Compute Engine.[6]
+
+Cloud9 had been acquired by Amazon in July 2016.</div>
+	<div class="section" id="section2">
+	    <img src="http://2.bp.blogspot.com/-uP-UEbk3T3Y/UmhCQuA9lMI/AAAAAAAAADs/_hdgLVgB-aI/s1600/Gmail_.jpg">
+	    Google Drive is a file storage and synchronization service developed by Google. Launched on April 24, 2012, Google Drive allows users to store files on their servers, synchronize files across devices, and share files. In addition to a website, Google Drive offers apps with offline capabilities for Windows and macOS computers, and Android and iOS smartphones and tablets. Google Drive encompasses Google Docs, Sheets and Slides, an office suite that permits collaborative editing of documents, spreadsheets, presentations, drawings, forms, and more. Files created and edited through the office suite are saved in Google Drive.
+
+Google Drive offers users 15 gigabytes of free storage, with 100 gigabytes, 1 terabyte, 2 terabytes, 10 terabytes, 20 terabytes, and 30 terabytes offered through optional paid plans. Files uploaded can be up to 5 terabytes in size. Users can change privacy settings for individual files and folders, including enabling sharing with other users or making content public. On the website, users can search for an image by describing its visuals, and use natural language to find specific files, such as "find my budget spreadsheet from last December".
+
+The website and Android app offer a Backups section to see what Android devices have data backed up to the service, and a completely overhauled computer app released in July 2017 allows for backing up specific folders on the user's computer. A Quick Access feature can intelligently predict the files users need </div>
+	<div class="section" id="section3">
+	   <img src="https://tctechcrunch2011.files.wordpress.com/2013/04/salesforce.png">
+        Salesforce.com, Inc. is an American cloud computing company headquartered in San Francisco, California. Though its revenue comes from a customer relationship management (CRM) product, Salesforce also sells commercial applications of social networking through acquisition and internal development.
+
+As of early 2016, it is one of the most highly valued American cloud computing companies with a market capitalization above $61 billion.[3] In August 2017, Salesforce announced that it had reached the $10 billion revenue run rate becoming the first enterprise cloud company to do so.
+
+Its common stock is listed on the New York Stock Exchange with the symbol CRM and is a constituent of the S&P 500 Index.</div>
+
+       	<div class="section" id="section4">
+       	    <img src="http://www.descasio.com/wp-content/uploads/2017/09/icon-cloud-aws.png">
+       	    Amazon Web Services (AWS) is a dynamic, growing business unit of Amazon. Since early 2006, Amazon Web Services has provided companies of all sizes with an infrastructure platform in the cloud. Using AWS, companies can requisition compute power, storage, and other services—gaining access to a global computing infrastructure that is the backbone of Amazon’s multi-billion dollar retail business.Today, Amazon Web Services provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world. 
+        </div>
+        <a href="homepage.html" class="success">Home</a>
+             
+            </div>
+            
+            
+       </body>
+</html>

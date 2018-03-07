@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.horseracing{
+   width:100%;
+   height:100%;
+   position: absolute;
+   background:white;
+}
+
+.horseracing img{
+    position:absolute;
+    width:20%;
+    height:20%;
+    top:40%;
+    left:25%;
+}
+
+.horseracing h2{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+.horseracing p{
+    position: absolute;
+    width:60%;
+    top:70%;
+    left:20%;
+}
+
+.horseracing button{
+    position: absolute;
+    top:90%;
+    left:90%;
+    background:#42A5F5;
+    padding:1%;
+    border-radius:15%;
+    border:none;
+}
