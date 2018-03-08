@@ -1,4 +1,5 @@
 <?php
+// Start the session
 session_start();
 ?>
 <!DOCTYPE html>
@@ -19,8 +20,8 @@ session_start();
         // Echo session variables that were set on previous page
         echo "Name: " . $_POST["name"] . ". <br>";
         echo "Email: " . $_POST["email"] . "<br>";
-        echo "Total is &euro;" . $_SESSION["total"] . ". <br>";
         ?>
+        <?php echo "Total: &euro;". $_SESSION["total"] . "."; ?>
         <p>Thank you for your purchase.</p>
         
         
